@@ -75,6 +75,10 @@ int main(){
         empilha(90, p1);
 
         imprimePilha(p1);
+
+        printf("\n o valor retirado foi = %i \n", desempilha(p1));
+
+        imprimePilha(p1);
     }
     
 }
